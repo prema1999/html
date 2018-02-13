@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<script src="angular.min.js">
+</script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+ 
+<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<p>Father name:<input type="text" ng-model=" fathername" placeholder="Enter name here"></p>
+
+<h1><font color="yellow">Fullname:{{name + " " +fathername}}</h1>
+<body bgcolor="pink">
+</div>
+
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope){
+     $scope.name=" ";
+      $scope.fathername=" ";
+});
+</script>
+
+
+</body>
+</html>
