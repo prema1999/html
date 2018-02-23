@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<title>sports form</title>
+</head>
+<style>
+body{
+    background-image:url("pic1.jpg");
+	background-repeat:no-repeat;
+	background-size:1500px 700px;
+}
+</style>
+<body>
+<h1><center>Sports Registeration form</center></h1>
+<form action="/action_page.php">
+<fieldset>
+<legend>Information</legend>
+<center>
+Name:
+<input type="text"  name="student name" placeholder="enter name" required>
+<br>
+<br>
+Gender:
+<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female<br>
+<br>
+Date Of Birth:
+<input type="date" name="dob" placeholder="enter dob">
+<br>
+<br>
+E-mail:
+<input type="email" name="email" placeholder="enter e-mail id">
+<br>
+<br>
+Phone Number:
+<input type="number" id="mobno" name="phoneno" placeholder="enter mobile number">
+<br>
+<br>
+Institution Name:
+<input type="text" name="instname" placeholder="enter institution name">
+<br>
+<br>
+Height:
+<input type:"number" name="hght" required><br>
+<br>
+Weight:
+<input type:"number" name="wght"  required><br>
+<br>
+Type Of Sports:
+<input type="checkbox" name="sports" value="athelete">Athelete
+<input type="checkbox" name="sports" value="hoecky">Hoecky
+<input type="checkbox" name="sports" value="volleyball">VolleyBall
+<input type="checkbox" name="sports" value="chess">Chess<br>
+<br>
+<input type="checkbox" name="sports" value="tennis">Tennis
+<input type="checkbox" name="sports" value="cricket">Cricket
+<input type="checkbox" name="sports" value="throwball">ThrowBall
+<input type="checkbox" name="sports" value="handball">HandBall
+<br>
+<br>
+Any Health Issues:
+<input type="radio" name="health" value="yes">Yes
+<input type="radio" name="health" value="no">No<br>
+<br>
+Remarks:
+<textarea name="message" rows="1" cols="25" placeholder="any remarks type here">
+</textarea><br>
+<br>
+<input type="button" value="submit" onclick="sp.html" />
+</center>
+</fieldset>
+</body>
+</html>
